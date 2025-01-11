@@ -21,7 +21,7 @@ bool AccountInformation::verify() {
 	swprintf_s(formatString, 130, L"%S", XorString("http://www.horionbeta.club/api/beta/check?client=%S&serial=%u&edition=%S&compile=%S&stamp=%u"));
 	
 	wchar_t fullUrl[250];
-
+// 1
 #ifdef _DEBUG
 	const char* edition = "dev";
 #elif defined(_BETA)
