@@ -17,7 +17,7 @@ private:
 
 public:
 	bool verify();
-
+//2 
 	static AccountInformation fromToken(std::string authToken, unsigned int serial);
 	static AccountInformation asGuest();
 };
